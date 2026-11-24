@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil | YOUVERSE</title>
+</head>
+    <link rel="stylesheet" href="./css/editarP.css">
+<body>
+
+    <header>
+        <h1>YOUVERSE<span>✦</span></h1>
+        <a href="explore.html">Explorar</a>
+        <a href="meuperfil.html">Meu perfil</a>
+    </header>
+
+    <main>
+
+        <section class="titulo">
+            <h2>Editar perfil</h2>
+            <p>Personalize suas informações e deixe seu espaço com a sua identidade.</p>
+        </section>
+
+        <section class="perfil">
+
+            <div class="foto">
+                <div class="avatar">👤</div>
+                <div>
+                    <h3>Sua foto de perfil</h3>
+                    <p>Escolha uma imagem que represente você.</p>
+                    <label for="foto">Alterar foto</label>
+                    <input type="file" id="foto" accept="image/*">
+                </div>
+            </div>
+
+            <hr>
+
+            <h3>Informações pessoais</h3>
+
+            <form>
+
+                <div class="campo">
+                    <label for="nome">Nome completo</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="campo">
+                    <label for="usuario">Nome de usuário</label>
+                    <input type="text" id="usuario" placeholder="@seuusuario">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="seuemail@email.com">
+                </div>
+
+                <div class="campo">
+                    <label for="data">Data de nascimento</label>
+                    <input type="date" id="data">
+                </div>
+
+                <div class="campo">
+                    <label for="bio">Biografia</label>
+                    <textarea id="bio" placeholder="Conte um pouco sobre você..."></textarea>
+                </div>
+
+                <hr>
+
+                <h3>Personalize seu universo</h3>
+                <p class="descricao">Escolha uma cor para representar seu perfil.</p>
+
+                <div class="cores">
+                    <input type="radio" name="cor" id="roxo" checked>
+                    <label for="roxo" class="cor roxo"></label>
+
+                    <input type="radio" name="cor" id="rosa">
+                    <label for="rosa" class="cor rosa"></label>
+
+                    <input type="radio" name="cor" id="azul">
+                    <label for="azul" class="cor azul"></label>
+
+                    <input type="radio" name="cor" id="verde">
+                    <label for="verde" class="cor verde"></label>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit">Salvar alterações</button>
+                    <button type="reset" class="cancelar">Cancelar</button>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>YOUVERSE © 2026 — Sua identidade, seu universo.</p>
+    </footer>
+
+</body>
+</html>

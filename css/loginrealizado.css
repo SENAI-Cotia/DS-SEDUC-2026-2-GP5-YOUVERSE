@@ -1,0 +1,211 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #F8F3FD, #E9D9F8);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CABEÇALHO */
+
+header {
+    padding: 25px 8%;
+}
+
+header h1 {
+    color: #8655B5;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+header span {
+    color: #C69CF0;
+}
+
+/* CONTEÚDO */
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+/* CARD */
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 470px;
+    padding: 45px 35px;
+    border-radius: 22px;
+    text-align: center;
+    box-shadow: 0 8px 30px #DCC9EF;
+}
+
+/* ÍCONE DE SUCESSO */
+
+.sucesso {
+    width: 85px;
+    height: 85px;
+    background-color: #E9DDF8;
+    color: #8655B5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 auto 22px;
+}
+
+/* ETIQUETA */
+
+.etiqueta {
+    color: #9B72C1;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* TÍTULO */
+
+h2 {
+    color: #70449A;
+    font-size: 29px;
+    margin: 15px 0;
+}
+
+.mensagem {
+    color: #968AA2;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 28px;
+}
+
+/* USUÁRIO */
+
+.usuario {
+    background-color: #F8F3FC;
+    border: 1px solid #E9DDF4;
+    padding: 15px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    background-color: #A77ACB;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 13px;
+}
+
+.dados {
+    flex: 1;
+}
+
+.dados h3 {
+    color: #51415F;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.dados p {
+    color: #968AA2;
+    font-size: 12px;
+}
+
+.check {
+    color: #8655B5;
+    font-size: 20px;
+}
+
+/* FRASE */
+
+.frase {
+    color: #8655B5;
+    font-size: 13px;
+    background-color: #F3EAFB;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.frase span {
+    margin-right: 5px;
+}
+
+/* BOTÃO */
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(90deg, #9565C5, #B18AD9);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #7545A5;
+    transform: translateY(-2px);
+}
+
+/* LINK */
+
+.voltar {
+    display: inline-block;
+    margin-top: 22px;
+    color: #8655B5;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
+
+/* RODAPÉ */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #968AA2;
+    font-size: 12px;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 500px) {
+
+    .container {
+        padding: 35px 22px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+}
