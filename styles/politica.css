@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --roxo-principal: #6546B5;
+  --roxo-escuro: #35216F;
+  --lavanda: #DCD2FA;
+  --lilas-claro: #F3F0FC;
+  --branco: #FFFFFF;
+  --azul-marinho: #17133D;
+  --cinza-suave: #77738B;
+  --borda-lilas: #D1C5F5;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--branco);
+  color: var(--azul-marinho);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
