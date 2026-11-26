@@ -4,22 +4,142 @@
   box-sizing: border-box;
 }
 
-:root {
-  --roxo-principal: #6546B5;
-  --roxo-escuro: #35216F;
-  --lavanda: #DCD2FA;
-  --lilas-claro: #F3F0FC;
-  --branco: #FFFFFF;
-  --azul-marinho: #17133D;
-  --cinza-suave: #77738B;
-  --borda-lilas: #D1C5F5;
-}
-
 body {
-  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: var(--branco);
-  color: var(--azul-marinho);
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF; 
+  color: #17133D; 
+  line-height: 1.6;
 }
 
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.cabecalho {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #D1C5F5; 
+  padding: 20px 0;
+}
+
+.cabecalho .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #35216F;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.navegacao a {
+  color: #17133D;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.navegacao a:hover,
+.navegacao a.ativo {
+  color: #6546B5;
+  font-weight: bold;
+}
+
+.topo-pagina {
+  padding: 40px 0 25px 0;
+}
+
+.etiqueta {
+  display: inline-block;
+  background-color: #DCD2FA;
+  color: #35216F;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: #35216F;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.descricao {
+  color: #77738B;
+  font-size: 16px;
+}
+
+.card-conteudo {
+  background-color: #F3F0FC;
+  border: 1px solid #D1C5F5;
+  border-radius: 12px;
+  padding: 35px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #17133D;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-conteudo p {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.card-conteudo ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.card-conteudo li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.card-conteudo strong {
+  color: #35216F;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #D1C5F5; 
+  margin: 25px 0;
+}
+
+.area-botao {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.botao-principal {
+  display: inline-block;
+  background-color: #6546B5;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.botao-principal:hover {
+  background-color: #35216F;
+}
+
+/* Rodape */
+.rodape {
+  border-top: 1px solid #D1C5F5;
+  text-align: center;
+  padding: 25px 20px;
+  color: #77738B;
+  font-size: 14px;
+}
